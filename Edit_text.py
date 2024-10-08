@@ -12,7 +12,7 @@ def remove_columns(input_file, output_file, columns_to_remove, delimiter='\t'):
 
         print("Finalizó el procesamiento.") 
 
-input_file = 'Your file input'
-output_file = 'your file output'
+input_file = 'C:/Users/Jose Manuel Iniesta/Desktop/Doctorado/Invierno2014/Invierno2014/Data_February_2014.txt'
+output_file = 'C:/Users/Jose Manuel Iniesta/Desktop/Doctorado/Invierno2014/Invierno2014/Data_February_2014_edited.txt'
 columns_to_remove = [3, 4, 17, 18, 19, 20, 25, 26, 29, 30, 31, 32, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55]
 remove_columns(input_file, output_file, columns_to_remove)
